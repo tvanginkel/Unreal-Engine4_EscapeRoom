@@ -101,6 +101,8 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	}
 }
 
+
+//Calculates the end of the ray trace, basically the reach of the player.
 FVector UGrabber::GetReachLineEnd()
 {
 	FVector PlayerLocation;
